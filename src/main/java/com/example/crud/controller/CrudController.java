@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class CrudController {
 	
-	//principal
+	//principal probando git
 	@GetMapping({"/","/home","/index"})
 	public String home() {	
 		return "Home";
